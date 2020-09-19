@@ -1512,8 +1512,8 @@ var HtmlRendererGameComponent = /** @class */ (function (_super) {
         this.renderInfo = _game_object_render_info__WEBPACK_IMPORTED_MODULE_3__["GameObjectRenderInfo"].fromGameObject(this.gameObject);
         // todo this is a pre-load of the images, but it should be moved into the initial game loading procedure with progress bar.
         if (this.backgroundImage != null) {
-            this.image = new Image();
-            this.image.src = this.backgroundImage;
+            // this.image = new Image();
+            // this.image.src = this.backgroundImage;
         }
     };
     HtmlRendererGameComponent.prototype.draw = function () {
